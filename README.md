@@ -51,6 +51,7 @@ gpu|Specify a GPU.|str|-1
 ***
 ## bottleneck structure configuation
 You can define custom bottleneck structure by edit ***large_config_list*** and ***small_config_list*** in `MobileNet_V3.py`
+
 Argument|Description|Type|Code
 ---|---|---|---
 out_dim|Output chennal dimension.|int|out
