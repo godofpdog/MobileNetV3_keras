@@ -50,7 +50,11 @@ gpu|Specify a GPU.|str|-1
 
 ***
 ## bottleneck structure configuation
+<<<<<<< HEAD
 You can define custom bottleneck structure by edit ***large_config_list*** and ***small_config_list*** in `MobileNet_V3.py`
+=======
+* You can define custom bottleneck structure by edit ***large_config_list*** and ***small_config_list*** in `MobileNet_V3.py`
+>>>>>>> c9ecf0e4d77d252f30c9d42e27a9cd1c0e8e34b2
 
 Argument|Description|Type|Code
 ---|---|---|---
@@ -59,7 +63,7 @@ kernel|Kernel size of filter.|tuple|kernel
 strides|Strides of the converlutional operation.|tuple|stride
 expansion_dim|Expansion dimension of the bottleneck block.|int|exp
 is_use_bias|Use bias or not.|bool|bias
-shortcut|Use shortcut operation or not.|bool|res
+res|Use shortcut operation or not.|bool|res
 is_use_se|Use SE block or not.|bool|se
 activation|Activative functions. ('RE' or 'HS')|str|active
 num_layers|Layer index number.|int|id 
