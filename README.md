@@ -50,11 +50,7 @@ gpu|Specify a GPU.|str|-1
 
 ***
 ## bottleneck structure configuation
-<<<<<<< HEAD
-You can define custom bottleneck structure by edit ***large_config_list*** and ***small_config_list*** in `MobileNet_V3.py`
-=======
 * You can define custom bottleneck structure by edit ***large_config_list*** and ***small_config_list*** in `MobileNet_V3.py`
->>>>>>> c9ecf0e4d77d252f30c9d42e27a9cd1c0e8e34b2
 
 Argument|Description|Type|Code
 ---|---|---|---
